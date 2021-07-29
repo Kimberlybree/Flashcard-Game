@@ -1,0 +1,70 @@
+header {
+     font-family:'Gowun Dodum', sans-serif;
+     font-size: 40px;
+     text-align: center;
+	 padding-top: 25px;
+
+}
+#countdown {
+     font-family: 'Gowun Dodum', sans-serif;
+     text-align: right;
+     padding-right: 50px;
+
+}
+.box{
+     font-family: 'Gowun Dodum', sans-serif;
+     background-image: url('http://flippity.net/images/Flashcard-BG-Side1.gif');
+     text-align: center;
+     border: none;
+     width: 520px;
+     height: 300px;
+     margin: auto;
+	 font-size: 30px;
+   
+   }
+   button {
+        font-size: 20px;
+        font-family: 'Gowun Dodum', sans-serif;
+        align-items: center;
+   }
+ footer {
+      padding-top: 100px;
+      flex-direction: center;
+      align-items: center;
+ }
+#modal {
+	font-family: 'Gowun Dodum', sans-serif;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+	display: none;
+}
+	
+	#modal-textbox {
+		background-color:  lightblue;
+		height: 250px; 
+		width: 400px;
+		border-radius: 2px;
+		margin: 150px auto;
+		box-shadow: 3px 2px 2px rgba(0,0,0,0.2);
+		padding: 20px;
+        line-height: 120%;
+	}
+
+	#modal-footer {
+		text-align: right;
+	}
+	.modal1 {
+	padding: 14px 18px;
+	background-color: #c2f0f0;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	color: white;
+	font-family: 'Arial';
+	cursor: pointer;
+}
