@@ -42,7 +42,7 @@ var arrOfQuestions = [[ 'word1', 'My name'],
                       [ 'word10', 'Sorry'],
                       [ 'word11', 'How much does it cost?'],
                       [ 'word12', 'Yes'],
-                      [ 'word13', 'No'],
+                      [ 'word13', 'No!'],
                       [ 'word14', 'Of Course'],
                       [ 'word15', 'Whats Happening?'],
                       [ 'word16', 'How is it going'],
@@ -53,8 +53,7 @@ var arrOfQuestions = [[ 'word1', 'My name'],
 
 
 
- ////Function with math random to randomize the array of Flashcards                 
-            
+ ////Function with math random to randomize the array of Flashcards                         
 $('button').on('click', function(){
   var question = Math.floor(Math.random()* arrOfQuestions.length);
   $('#panel').html(arrOfQuestions[question][1]);
@@ -71,7 +70,7 @@ const openModal = () => {
 }
 
 const closeModal = () => {
-  modal.style.display = 'none'
+  modal.style.display = 'none';
 }
 
 ////Timer Countdown

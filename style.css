@@ -10,6 +10,7 @@ body {
     color: #FFFFFF;
 	background-size: cover;
     background-repeat: no-repeat;
+	margin: 0 auto;
 }
 #countdown {
      font-family: 'Gowun Dodum', sans-serif;
@@ -17,29 +18,61 @@ body {
      padding-right: 50px;
 	 background: black;
 	 font-size: 18px;
-
 }
-.box{
+.box {
      font-family: 'Gowun Dodum', sans-serif;
 	 color: black;
      background-image: url('http://flippity.net/images/Flashcard-BG-Side1.gif');
-     text-align: center;
-     border: none;
-     width: 520px;
-     height: 300px;
+	 border: none;
+     width: 515px;
+     height: 200px;
      margin: auto;
-	 font-size: 30px;
-   
+	 font-size: 32px;
+	 cursor: pointer;
    }
    button {
         font-size: 20px;
         font-family: 'Gowun Dodum', sans-serif;
-		
+		text-align: center;
+	    outline: none;
+		border: none;
+		border-radius: 5px;
+		color:white;
+		background-color: cornflowerblue;
+		box-shadow: 0 4px #999; 
    }
+    button:hover {
+	   background-color: cornflowerblue;
+	   color: white;
+	}
+	button:hover::after {
+		content: " Instrucciones"
+	}
+	#close:hover::after {
+		content: "  Cerrar"
+	}
+    .nextButton:hover::after {
+		content: " Proximo"
+	}
+	.containerBox {
+		text-align: center;
+		margin: auto;
+		padding-top: 90px;
+	}
+	
+button:active {
+	background-color: cornflowerblue;
+	box-shadow: 0 3px #555;
+	transform: translateY(4px);
+}
  footer {
       padding-top: 100px;
       flex-direction: center;
       align-items: center;
+ }
+ #panel{
+	 padding-top: 100px;
+	 text-align: center;
  }
 #modal {
 	font-family: 'Gowun Dodum', sans-serif;
@@ -76,4 +109,5 @@ body {
 	color: white;
 	font-family: 'Arial';
 	cursor: pointer;
+	
 }
