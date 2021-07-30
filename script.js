@@ -4,6 +4,7 @@ const close = document.getElementById('close')
 ///Assign and Get Elements by ID
 
 
+
 ///Assigned array for word variation
 var cards = {
   word1: 'Me llamo',
@@ -74,7 +75,7 @@ const closeModal = () => {
 }
 
 ////Timer Countdown
-var timeleft = 10;   
+var timeleft = 60;   
 var downloadTimer = setInterval(function(){
   if(timeleft <= 0){
     clearInterval(downloadTimer);
