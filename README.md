@@ -1,6 +1,6 @@
 # Project1
 Javascript Learning Flashcards (Beginner) 
-An Educational Flashcard Array to learn Javascript vocabulary 
+An Educational Flashcard Array to practice Javascript vocabulary.
 
 Technologies used: HTML, CSS, Javascript, DOM Manipulation
 
