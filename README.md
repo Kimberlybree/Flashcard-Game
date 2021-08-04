@@ -12,8 +12,9 @@ Live page here >>> https://kimberlybree.github.io/Project1/
 <img src="https://media1.giphy.com/media/zcWncFFkohH2MXkZyA/200.webp?cid=ecf05e47epky5tfg21gnbzikg72g0nyj6uql2st94reao8xf&rid=200.webp&ct=g" raw=true alt="Winter">
 
 
-As the user, I want to learn by using flashcards in a user-friendly format.
-As the user, I want to easily click to flip my card and reveal the correct word.
+As the user, I am a software engineer student and I want to learn by using flashcards in a user-friendly format.
+As the user, I am learning javascript and want to easily click to flip my card and reveal the correct word.
+As the user, I want to have a very clear and functional layout to study with buttons that stand out are easily clickable.
 As the user, I want to challenge myself by trying to beat the 90 second countdown timer.
 
 
