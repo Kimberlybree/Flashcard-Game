@@ -19,7 +19,7 @@ As the user, I want to challenge myself by trying to beat the 90 second countdow
 
 
 Instructions: Use the "shuffle" button to pick the randomized flashcard, read the definition and choose your answer, and click on the flashcard to reveal the answer. 
-Inspiration for flashcard project is from Quizlet.com
+Inspiration for flashcard project is from Quizlet.com.
 
 
 
