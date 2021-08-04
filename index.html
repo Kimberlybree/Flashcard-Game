@@ -9,62 +9,68 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
-<title>Journey Language Learning</title>
+<title>Javascript Learning</title>
 
-<header>Journey Language Learning</header>
+
+<header>Javascript Learning</header>
   
 </head>
 <body>
  
 
     <div id="countdown"></div>
-   
 
-    <button class="instructionbox" id="openModal">Instructions</button>
+
+    <div class="containerBox">
+      <button class="nextButton">Shuffle</button>
+    </div>
+     <div id="openInst">
+    <button class="instructionOpen" id="openModal">Instructions</button> </div>
     <div id="modal">
       <div id="modal-textbox">
-        <h1>English to Spanish</h1>
-        <p>Click Next to veiw your English word, press on the word to see the Spanish word. You have 90 seconds to complete the flashcard deck. Keep track of your correct answers with the Tally Score button below.</p> 
+        <h1>Javascript</h1>
+        <p>Click Shuffle to view your Javascript definition, take a guess, and press on the flashcard to see the word. You have 90 seconds to complete the flashcard deck.
+        </p> 
+
+
         <div id="modal-footer">
-            <button class ="instructionbox" id="close" href="#">Close</button>
+            <button class="closeButton" id="close" href="#">Close</button>
             </div>
     </div>
     </div>
-      
-    <div class="mainContainer"> 
-      <div class="card" id="card">
-        <div class="front">
+
+
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 crossorigin="anonymous"></script>
 </head>
 </div>
 <div class="back">
-
   <div class="w3-row-padding">
     <div class="box s4 w3-yellow w3-padding-32" id='panel'>
     </div>
   </div>
 
   <br>
+
   
-  <div class="containerBox"> 
-    <button class ="nextButton">Next</button>
-   </div>
-  
-  
-   
     <script src="script.js"></script>
 
-<div class="tallyBox">
-<button onclick="tally()">Tally Score</button>
-<p id="tallyPoints"></p>
-</div>
 
+  
  
 </body>
 <footer>
+
+  © General Assembly Project 2021
+
+  <input type="text" placeholder="Enter your email" name="Subscribe!"> <button>Subscribe!</button>
+
+     
     
    
 </footer>
 </html>
+
+
+

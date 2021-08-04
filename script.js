@@ -1,59 +1,60 @@
 const openBtn = document.getElementById('openModal');
 const modal = document.getElementById('modal')
 const close = document.getElementById('close')
-//Modal 
+//Assigned Modal for getting each element - instruction Box.
 
 
 ///Assigned array for word variation
  var cards = {
-  word1: 'Me llamo',
-  word2: 'Mi Nombre es',
-  word3: 'Buenos días', 
-  word4: 'Buenos noches', 
-  word5: '¿Cómo estás? ',
-  word6: 'Muy bien',
-  word7: '¡De nada!',
-  word8: 'Por favor',
-  word9: '¡Perdon!', 
-  word10: '¡Lo siento! ',
-  word11: '¿Cuánto cuesta eso?',
-  word12: 'Sí',
-  word13: 'Gato',
-  word14: 'Claro',
-  word15: '¿Qué pasa?', 
-  word16: '¿Cómo te va? ',
-  word17: '¡Muchas gracias!',
-  word18: '(Yo) soy de…',
-  word19: 'Hola, soy _____',
-  word20: '(Yo) tengo … años',
+  word1: 'Arrays',
+  word2: 'Elements',
+  word3: 'Index', 
+  word4: 'Multi-dimensional Arrays',  
+  word5: 'Nested array elements',
+  word6: 'Variable',
+  word7: 'Function',
+  word8: 'JavaScript',
+  word9: 'Method', 
+  word10: 'Operator',
+  word11: 'Script',
+  word12: 'Anchors',
+  word13: 'Elements',
+  word14: 'String',
+  word15: 'href', 
+  word16: 'length',
+  word17: 'parent',
+  word18: 'getDay',
+  word19: 'getHours',
+  word20: 'NaN',
 }
 
 
-var arrOfQuestions = [[ 'word1', 'My name'],
-                      [ 'word2', 'My name is'],
-                      [ 'word3', 'Good Morning' ],
-                      [ 'word4', 'Good Night'],
-                      [ 'word5', 'How are you?'],
-                      [ 'word6', 'Very Good'],
-                      [ 'word7', 'Your Welcome!'],
-                      [ 'word8', 'Please'],
-                      [ 'word9', 'Excuse Me'],
-                      [ 'word10', 'Sorry'],
-                      [ 'word11', 'How much does it cost?'],
-                      [ 'word12', 'Yes'],
-                      [ 'word13', 'Cat'],
-                      [ 'word14', 'Of Course'],
-                      [ 'word15', 'Whats Happening?'],
-                      [ 'word16', 'How is it going'],
-                      [ 'word17', 'Thank you very much!'],
-                      [ 'word18', 'I came from'],
-                      [ 'word19', 'Hello, I am _____'],
-                      [ 'word20', 'I am ___ years old.']]
+//Array of Questions
+var arrOfQuestions = [[ 'word1', 'An array is an ordered collection of values.'],
+                      [ 'word2', 'An element is a value in an array.'],
+                      [ 'word3', 'The ordered position of the elements in the array.' ],
+                      [ 'word4', 'A two-dimensional array is an array within an array. If you fill this array with another array you get a three-dimensional array and so on.'],
+                      [ 'word5', 'They are accessed by using [index][index]….. (number of them depends upon the number of arrays deep you want to go inside).'],
+                      [ 'word6', 'A symbol representing a quantity that assumes a range of values.'],
+                      [ 'word7', 'A user-defined or built-in set of statements that perform a task. It can also return a value when used with the return statement.'],
+                      [ 'word8', 'A scripting language developed by Netscape for HTML documents. Scripts are performed after specific user-triggered events. Creating JavaScript Web documents requires a text editor and compatible browser.'],
+                      [ 'word9', 'A function assigned to an object. For example, bigString.toUpperCase() returns an uppercase version of the string contained in bigString.'],
+                      [ 'word10', 'Performs a function on one or more operands or variables.'],
+                      [ 'word11', 'One or more JavaScript commands enclosed with a script tag.'],
+                      [ 'word12', ' A piece of text that can be the target of a hypertext link. This is a read-only object which is set in HTML with <A> tags.'],
+                      [ 'word13', 'An array of form elements in source order, including buttons, check boxes, radio buttons, text and text area objects. The elements can be referred to by their index'],
+                      [ 'word14', 'A series of characters defined by double or single quotes.'],
+                      [ 'word15', 'Returns a string with the entire URL. All other location and link properties are substrings of href, which can be changed at any time.']
+                      [ 'word16', 'An integer reflecting a length- or size-related property of an object. '],
+                      [ 'word17', 'Refers to the calling document in the current frame created by a <frameset> tag. Using parent allows access to other frames created by the same <FRAMESET> tag. For example, two frames invoked are called index and contents.'],
+                      [ 'word18', 'Returns the day of the week as an integer from zero (Sunday) to six (Saturday).'],
+                      [ 'word19', 'Returns the hour of the day in 24-hour format, from zero (midnight) to 23 (11 PM). Method of Date. See setHours METHOD.'],
+                      [ 'word20', 'Not a Number']]
 
- ////Function with math random to randomize the array of Flashcards                         
+ ////Function with implemented Math.Random to randomize the array of Flashcard selection                         
 $('button').on('click', function(){
   var question = Math.floor(Math.random()* arrOfQuestions.length);
-  $('#panel').html(arrOfQuestions[question][1]);
+  $('#panel').html(arrOfQuestions[question][1]); 
   //Math.random to randomize array for length of array
   
   
@@ -62,15 +63,23 @@ $('button').on('click', function(){
    })
 })
 
+
+///Modal Functionality
 const openModal = () => {
   modal.style.display = 'block';
 }
-
 const closeModal = () => {
   modal.style.display = 'none';
 }
 
-////Timer Countdown
+
+///Event Listeners for Modal Click
+openBtn.addEventListener('click', openModal)
+close.addEventListener('click', closeModal)
+
+setTimeout(openModal, 5000);
+
+////Timer Countdown 
 var timeleft = 90;   
 var downloadTimer = setInterval
 ( function()   {
@@ -84,15 +93,3 @@ var downloadTimer = setInterval
 }, 1000); 
 
 
-//Tally Score
-var count = 1;
-function tally() {
-  document.getElementById("tallyPoints").innerHTML = count++;
-}
-
-
-///Event Listeners for Modal
-openBtn.addEventListener('click', openModal)
-close.addEventListener('click', closeModal)
-
-setTimeout(openModal, 5000);
