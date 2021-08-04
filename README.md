@@ -2,10 +2,7 @@
 Javascript Learning Flashcards (Beginner) 
 
 Technologies used: 
--HTML
--CSS 
--Javascript
--DOM Manipulation
+HTML, CSS, Javascript, DOM Manipulation
 
 Description: An Educational Flashcard Array to practice Javascript vocabulary.
 
