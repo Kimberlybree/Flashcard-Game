@@ -1,8 +1,15 @@
 # Project1
 Javascript Learning Flashcards (Beginner) 
 An Educational Flashcard Array to practice Javascript vocabulary.
+Live page here >>> https://kimberlybree.github.io/Project1/
+
 
 Technologies used: HTML, CSS, Javascript, DOM Manipulation
+
+
+Instructions: Use the "shuffle" button to pick the randomized flashcard, read the definition and choose your answer, and click on the flashcard to reveal the answer. 
+Inspiration for flashcard project is from Quizlet.com
+
 
 <img src="https://media1.giphy.com/media/zcWncFFkohH2MXkZyA/200.webp?cid=ecf05e47epky5tfg21gnbzikg72g0nyj6uql2st94reao8xf&rid=200.webp&ct=g" raw=true alt="Winter">
 
@@ -19,7 +26,3 @@ As the user, I want to challenge myself by trying to beat the 90 second countdow
 
 
 
-Instructions: Use the "shuffle" button to pick the randomized flashcard, read the definition and choose your answer, and click on the flashcard to reveal the answer. 
-Inspiration for flashcard project is from Quizlet.com
-
-Live page here >>> https://kimberlybree.github.io/Project1/
