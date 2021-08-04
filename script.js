@@ -1,12 +1,11 @@
 const openBtn = document.getElementById('openModal');
 const modal = document.getElementById('modal')
 const close = document.getElementById('close')
-///Assign and Get Elements by ID
-
+//Modal 
 
 
 ///Assigned array for word variation
-var cards = {
+ var cards = {
   word1: 'Me llamo',
   word2: 'Mi Nombre es',
   word3: 'Buenos días', 
@@ -19,7 +18,7 @@ var cards = {
   word10: '¡Lo siento! ',
   word11: '¿Cuánto cuesta eso?',
   word12: 'Sí',
-  word13: 'No',
+  word13: 'Gato',
   word14: 'Claro',
   word15: '¿Qué pasa?', 
   word16: '¿Cómo te va? ',
@@ -42,7 +41,7 @@ var arrOfQuestions = [[ 'word1', 'My name'],
                       [ 'word10', 'Sorry'],
                       [ 'word11', 'How much does it cost?'],
                       [ 'word12', 'Yes'],
-                      [ 'word13', 'No!'],
+                      [ 'word13', 'Cat'],
                       [ 'word14', 'Of Course'],
                       [ 'word15', 'Whats Happening?'],
                       [ 'word16', 'How is it going'],
@@ -50,8 +49,6 @@ var arrOfQuestions = [[ 'word1', 'My name'],
                       [ 'word18', 'I came from'],
                       [ 'word19', 'Hello, I am _____'],
                       [ 'word20', 'I am ___ years old.']]
-
-
 
  ////Function with math random to randomize the array of Flashcards                         
 $('button').on('click', function(){
@@ -74,8 +71,9 @@ const closeModal = () => {
 }
 
 ////Timer Countdown
-var timeleft = 60;   
-var downloadTimer = setInterval(function(){
+var timeleft = 90;   
+var downloadTimer = setInterval
+( function()   {
   if(timeleft <= 0){
     clearInterval(downloadTimer);
     document.getElementById("countdown")
@@ -85,7 +83,15 @@ var downloadTimer = setInterval(function(){
   timeleft -= 1;
 }, 1000); 
 
-///Event Listeners
+
+//Tally Score
+var count = 1;
+function tally() {
+  document.getElementById("tallyPoints").innerHTML = count++;
+}
+
+
+///Event Listeners for Modal
 openBtn.addEventListener('click', openModal)
 close.addEventListener('click', closeModal)
 

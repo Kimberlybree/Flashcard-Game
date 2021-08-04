@@ -15,14 +15,16 @@
   
 </head>
 <body>
+ 
 
-    <div id="countdown">Time Remaining</div>
+    <div id="countdown"></div>
+   
 
     <button class="instructionbox" id="openModal">Instructions</button>
     <div id="modal">
       <div id="modal-textbox">
         <h1>English to Spanish</h1>
-        <p>Click Next to veiw your English word, press on the word to see the Spanish word. You have 60 seconds to complete the flashcard deck.</p> 
+        <p>Click Next to veiw your English word, press on the word to see the Spanish word. You have 90 seconds to complete the flashcard deck. Keep track of your correct answers with the Tally Score button below.</p> 
         <div id="modal-footer">
             <button class ="instructionbox" id="close" href="#">Close</button>
             </div>
@@ -53,6 +55,13 @@ crossorigin="anonymous"></script>
   
    
     <script src="script.js"></script>
+
+<div class="tallyBox">
+<button onclick="tally()">Tally Score</button>
+<p id="tallyPoints"></p>
+</div>
+
+ 
 </body>
 <footer>
     

@@ -12,6 +12,10 @@ body {
     background-repeat: no-repeat;
 	margin: 0 auto;
 }
+#tallyPoints {
+	font-size: 20px;
+	text-align: center;
+}
 #countdown {
      font-family: 'Gowun Dodum', sans-serif;
      text-align: right;
@@ -45,7 +49,7 @@ body {
 	   background-color: cornflowerblue;
 	   color: white;
 	}
-	button:hover::after {
+	.instructionbox:hover::after {
 		content: " Instrucciones"
 	}
 	#close:hover::after {
@@ -54,10 +58,17 @@ body {
     .nextButton:hover::after {
 		content: " Proximo"
 	}
+	.correct:hover::after {
+		content: " Correcto"
+	}
+	.incorrect:hover::after {
+		content: " Incorrecto"
+	}
 	.containerBox {
 		text-align: center;
 		margin: auto;
 		padding-top: 90px;
+		padding-bottom: 20px;
 	}
 	
 button:active {
