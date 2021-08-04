@@ -1,6 +1,8 @@
 # Project1
 Javascript Learning Flashcards (Beginner)
 
+Live page here >>> https://kimberlybree.github.io/Project1/
+
 Technologies used: HTML, CSS, Javascript, DOM Manipulation
 
 ****Winter GIF here to show that I've followed instructions
