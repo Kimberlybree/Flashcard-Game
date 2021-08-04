@@ -100,11 +100,12 @@ button:active {
 	
 }
 footer { 
+	font-family: hurme_no2-webfont, -apple-system, system-ui, sans-serif;
 	background-color: rgb(66,87,178);
 	display: flex; 
 	justify-content: center; 
 	color: cornflowerblue;
-	font-size: 15px;
+	font-size: 14px;
 	padding: 50px 0px 50px 0px;
   } 
 
