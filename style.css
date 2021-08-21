@@ -5,6 +5,7 @@ header {
 	 padding-top: 20px;
 	 padding-bottom: 20px;
 	 color: rgb(48,53,69);
+	 margin: 0 auto;
 }
 body {
 	background-color: rgb(230, 237, 245);
@@ -19,6 +20,7 @@ body {
      padding-right: 50px;
 	 background-color: rgb(66,87,178);
 	 font-size: 15px;
+	 margin: 0 auto;
 }
 .box {
      font-family: 'Gowun Dodum', sans-serif;
@@ -108,5 +110,57 @@ footer {
 	font-size: 14px;
 	padding: 50px 0px 50px 0px;
   } 
+ /* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
 
+}
 
+/* Portrait */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+}
+  
