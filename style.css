@@ -8,7 +8,9 @@ header {
 	 margin: 0 auto;
 }
 body {
+	background-image: url('https://images.pexels.com/photos/1470168/pexels-photo-1470168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 	background-color: rgb(230, 237, 245);
+	background-size: cover;
     color: #FFFFFF;
 	background-size: cover;
     background-repeat: no-repeat;
@@ -18,7 +20,7 @@ body {
      font-family: hurme_no2-webfont, -apple-system, system-ui, sans-serif;
      text-align: right;
      padding-right: 50px;
-	 background-color: rgb(66,87,178);
+	 background-color: cornflowerblue;
 	 font-size: 15px;
 	 margin: 0 auto;
 }
@@ -42,7 +44,7 @@ body {
 		border-radius: 5px;
 		border: none;
 		color:white;
-		background-color: rgb(59,207,208);
+		background: lightblue;
 		box-shadow: 0 4px #999; 
    }
    #openInst {
@@ -101,15 +103,6 @@ button:active {
 	cursor: pointer;
 	
 }
-footer { 
-	font-family: hurme_no2-webfont, -apple-system, system-ui, sans-serif;
-	background-color: rgb(66,87,178);
-	display: flex; 
-	justify-content: center; 
-	color: cornflowerblue;
-	font-size: 14px;
-	padding: 50px 0px 50px 0px;
-  } 
  /* Portrait and Landscape */
 @media only screen 
 and (min-device-width: 414px) 
