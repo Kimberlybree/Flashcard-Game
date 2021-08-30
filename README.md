@@ -23,6 +23,8 @@ Instructions: Use the "shuffle" button to pick the randomized flashcard, read th
 
 <img width="1002" alt="Screen Shot 2021-08-02 at 2 11 56 PM" src="https://user-images.githubusercontent.com/86509310/127907092-b7d1a26b-fc1f-4e63-a63d-59e5bb326eee.png">
 
+<img width="985" alt="Screen Shot 2021-08-29 at 10 03 15 PM" src="https://user-images.githubusercontent.com/86509310/131275340-87051970-36b0-4156-807f-9cc6f574eb72.png">
+
 
 
 
