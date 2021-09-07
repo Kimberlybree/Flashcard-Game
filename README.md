@@ -1,4 +1,4 @@
-# Project1
+# Javascript, HTML, CSS, DOM Flashcard Educational game
 Javascript Learning Flashcards (Beginner) 
 
 Technologies used: 
