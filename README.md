@@ -1,5 +1,5 @@
 # Javascript, HTML, CSS, DOM Flashcard Educational game
-Javascript Learning Flashcards (Beginner) 
+Javascript Learning Flashcards 
 
 Technologies used: 
 HTML, CSS, Javascript, DOM Manipulation
