@@ -7,8 +7,6 @@ HTML, CSS, Javascript, DOM Manipulation
 Description: An Educational Flashcard Array to practice Javascript vocabulary.
 
 
-
-
 As the user, I am a software engineer student and I want to learn by using flashcards in a user-friendly format.
 As the user, I am learning javascript and want to easily click to flip my card and reveal the correct word.
 As the user, I want to have a very clear and functional layout to study with buttons that stand out are easily clickable.
