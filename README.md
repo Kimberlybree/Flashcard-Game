@@ -6,7 +6,6 @@ HTML, CSS, Javascript, DOM Manipulation
 
 Description: An Educational Flashcard Array to practice Javascript vocabulary.
 
-Live page here >>> https://kimberlybree.github.io/Project1/
 
 
 
